@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="psGrad" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#A855F7"/>
+      <stop offset="55%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="psInner" x1="18" y1="18" x2="46" y2="46" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#C4B5FD"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="15" fill="#131622" stroke="url(#psGrad)" stroke-width="3"/>
+  <rect x="14" y="14" width="36" height="36" rx="9" fill="url(#psGrad)" fill-opacity="0.18"/>
+  <path d="M22 42V22h11.5c5.2 0 8.5 3.1 8.5 7.7 0 4.6-3.3 7.7-8.5 7.7H27.2V42H22Zm5.2-8.9h5.8c2.3 0 3.7-1.2 3.7-3.4s-1.4-3.4-3.7-3.4h-5.8v6.8Z" fill="url(#psInner)"/>
+  <circle cx="44.5" cy="41.5" r="4.5" fill="#38BDF8"/>
+</svg>
